@@ -9,18 +9,32 @@ body{
 header{
     text-align: center;
     background-color: white;
+    padding: 10px;
+}
+.name{
+    background-color: white;
 }
 header img{
     height: 200px;
 }
 .header_text{
-    width: 50%;
+    width: 30%;
     text-align: center;
     background-color: white;
 }
-ul{
+ul, li, .body_text,a{
     background-color: #DFD7BF;
 }
-li{
-    list-style-type: square;
+.early{
+    margin-top: 0px;
+}
+.body_text_section{
+    margin: 0px 40px 20px 40px;
+}
+.bottom, ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bottom{
+    padding-top: 20px;
 }
