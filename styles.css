@@ -22,6 +22,11 @@ header img{
     text-align: center;
     background-color: white;
 }
+/* .text-section{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+} */
 ul, li, .body_text,a{
     background-color: #DFD7BF;
 }
@@ -37,4 +42,17 @@ ul, li, .body_text,a{
 }
 .bottom{
     padding-top: 20px;
+}
+a{
+    color: #eb800e;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+} 
+a:visited{
+    color:seagreen;
+}
+.main_list{
+    list-style-type: none;
 }
