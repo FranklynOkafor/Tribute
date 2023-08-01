@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Eric Thomas</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1 class="name"><b class="name">Eric Thomas</b></h1>
-            <img src="images/eric thomas.jpg" alt="Eric Thomas">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Thomas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex-container">
+    <header>
+        <h1 class="name"><b class="name">Eric Thomas</b></h1>
+        <img src="images/eric thomas.jpg" alt="Eric Thomas">
             
-            <article class="header_text"><small><em><b class="header_text">
-                Eric D. Thomas (born September 3, 1970) is an American motivational speaker, author, consultant, and minister. 
-                <br>Speeches by Thomas are popular on Youtube</b></em></small> </article>
-        </header>
-        <section class="body_text_section">
+        <article class="header_text"><small><em><b class="header_text">
+            Eric D. Thomas (born September 3, 1970) is an American motivational speaker, author, consultant, and minister. 
+            <br>Speeches by Thomas are popular on Youtube</b></em></small> </article>
+        
+    </header>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-list-item"><a class="nav-link" href="#early">Early Life</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="#career">Career</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="#motivate">Motivational Speaker</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="#links">Others</a></li>
+        </ul>
+    </nav>
+    <section class="content-container body_text_section">
+        <section class="content">
             <ul class="main_list">
-                <li><h2 class="body_text early"><b><em class="body_text">Early Life</em></b></h2> 
+                <li id="early"><h2 class="body_text early"><b><em class="body_text">Early Life</em></b></h2> 
                     <ul>
                         <li>Thomas was born in Chicago, Illinois and raised in Detroit, Michigan. He was born to a single, teenage mother.</li>
                         <li> After various arguments with his parents and aunts, he dropped out of high school and lived homeless on the 
@@ -32,7 +42,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li id="career">
                     <h2 class="body_text">
                         <b><em class="body_text">Career</em></b>
                     </h2> 
@@ -48,7 +58,7 @@
                         <li>Thomas attained a master's degree from MSU in 2005, and a PhD in Education Administration in 2015.</li>
                     </ul>
                 </li>
-                <li><h2 class="body_text"><b><em class="body_text">Motivational Speaker</em></b></h2> 
+                <li id="motivate"><h2 class="body_text"><b><em class="body_text">Motivational Speaker</em></b></h2> 
                     <ul>
                         <li>After becoming known as a preacher and motivational speaker, Thomas founded a company to offer education 
                             consulting, executive coaching and athletic development.
@@ -67,11 +77,21 @@
                     </ul>
                 </li>
             </ul>
-            <ul><h2 class="body_text bottom"><em class="body_text"><small><b class="body_text">Other Links</b></small></em></h2> 
+            <ul id="links"><h2 class="body_text bottom"><em class="body_text"><small><b class="body_text">Other Links</b></small></em></h2> 
                 <li><a href="https://www.etinspires.com/">E.T's inspire webstie</a></li>
                 <li><a href="https://www.youtube.com/user/etthehiphoppreacher">E.T's Youtube Channel</a></li>
                 <li><a href="https://twitter.com/ericthomasbtc">E.T's Twitter</a></li>
             </ul>
         </section>
-    </body>
+        <section class="sidebar1"><img src="./images/quote 1.jpg" alt="quote"></section>
+        <section class="sidebar2"><img src="images/quote 2.jpg" alt="quote"></section>
+    </section>
+    <footer>
+        <p>&copy; Copyright my company</p> 
+        <address>
+            Contact: <a href="mailto:frankeokafor@gn=mail.com">Contact Address</a>
+        </address>
+    </footer>
+    
+</body>
 </html>
